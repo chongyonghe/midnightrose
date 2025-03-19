@@ -1,0 +1,114 @@
+/* General Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.bg {
+    background-color: antiquewhite;
+}
+
+/* Header Styling */
+.navbar {
+    padding: 1rem;
+}
+
+.navbar-nav .nav-item .nav-link {
+    font-size: 1.1rem;
+    margin-right: 1rem;
+}
+
+.navbar-nav .nav-link:hover 
+{
+    color: blue !important; /* Elegant light orange hover effect */
+}
+
+.navbar-brand 
+{
+    font-weight: bold;
+    font-family: "Tangerine", serif;
+}
+
+/* About Us Section */
+.about-us-section {
+    margin-top: 80px;
+    font-size: 1.1rem;
+}
+
+.about-us-section h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+.about-us-section h3 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.about-us-section p {
+    color: #555;
+    line-height: 1.6;
+}
+
+.about-us-section ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.about-us-section ul li {
+    font-size: 1.1rem;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+/* Images */
+img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* Bottom Section */
+.bottom {
+    background-color: #343a40;
+    color: white;
+    padding: 30px 0;
+}
+
+.bottom a {
+    color: white;
+    text-decoration: none;
+}
+
+.bottom a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 767px) {
+    .about-us-section h2 {
+        font-size: 2rem;
+    }
+
+    .about-us-section p, .about-us-section h3 {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .about-us-section h2 {
+        font-size: 1.6rem;
+    }
+
+    .about-us-section h3 {
+        font-size: 1.4rem;
+    }
+
+    .about-us-section p {
+        font-size: 0.9rem;
+    }
+}

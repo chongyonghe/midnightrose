@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Midnight Rose - The finest rose shop for premium flowers and gifts.">
+    <title>Midnight Rose | Purple Rose</title>
+    <!-- Link to External CSS File -->
+    <link rel="stylesheet" href="purplerose.css">
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tangerine:wght@400;700&display=swap" rel="stylesheet"> 
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+        <a class="navbar-brand" href="index.html" style="font-family: 'Tangerine', cursive; font-size: 24px;">Midnight Rose</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+                <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                <li class="nav-item"><a class="nav-link" href="cart.html">Cart</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Product Section -->
+<div class="container mt-5">
+    <div class="row">
+        <!-- Image Section -->
+        <div class="col-md-6 text-center">
+            <img src="img/purple rose 1.jpg" alt="Purple Rose" class="img-fluid product-image">
+        </div>
+        <!-- Details Section -->
+        <div class="col-md-6">
+            <h2 class="product-title">💜 Purple Rose – Enchantment & Mystery</h2>
+            <p class="price">RM 220.00 <span class="badge bg-danger">Sale</span></p>
+            <p class="shipping">🚚 Free Shipping | 5-Day Delivery</p>
+            
+            <!-- Quantity Selector -->
+            <div class="quantity mb-3">
+                <label>Quantity:</label>
+                <input type="number" id="quantity" value="1" min="1" max="100" class="form-control d-inline w-auto">
+            </div>
+            
+            <!-- Buttons -->
+            <button class="btn btn-dark add-to-cart"
+                data-name="Purple Rose"
+                data-price="220.00"
+                data-img="img/purple rose 1.jpg">
+                Add to Cart
+            </button>
+            <button class="btn btn-danger buy-now"
+                data-name="Purple Rose"
+                data-price="220.00"
+                data-img="img/purple rose 1.jpg">
+                Buy Now
+            </button>
+
+            <!-- Description -->
+            <div class="product-description mt-4">
+                <h5>Product Description</h5>
+                <p>The purple rose symbolizes enchantment, mystery, and admiration. Often associated with love at first sight, it makes for a stunning and elegant gift for someone truly special.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Related Products Section -->
+<div class="container mt-5">
+    <h3 class="text-center">You may also like</h3>
+    <div class="row justify-content-center">
+
+        <!-- Product 1 -->
+        <div class="col-md-3">
+            <a href="redrose.html" class="card link">
+                <div class="card">
+                    <img src="img/red rose 1.jpg" class="card-img-top" alt="Red Rose">
+                    <div class="card-body text-center">
+                        <h5>Red Rose</h5>
+                        <p>RM 300.00</p>
+                    </div>
+                </div>
+            </a>
+        </div>
+
+        <!-- Product 2 -->
+        <div class="col-md-3">
+            <a href="pinkrose.html" class="card link">
+                <div class="card">
+                    <img src="img/pink rose 1.jpg" class="card-img-top" alt="Pink Rose">
+                    <div class="card-body text-center">
+                        <h5>Pink Rose</h5>
+                        <p>RM 268.00</p>
+                    </div>
+                </div>
+            </a>
+        </div>
+
+        <!-- Product 3 -->
+        <div class="col-md-3">
+            <a href="bluerose.html" class="card link">
+                <div class="card">
+                    <img src="img/blue rose 1.jpg" class="card-img-top" alt="Blue Rose">
+                    <div class="card-body text-center">
+                        <h5>Blue Rose</h5>
+                        <p>RM 189.00</p>
+                    </div>
+                </div>
+            </a>
+        </div>
+
+        <!-- Product 4 -->
+        <div class="col-md-3">
+            <a href="yellowrose.html" class="card link">
+                <div class="card">
+                    <img src="img/yellow rose 1.jpg" class="card-img-top" alt="Yellow rose">
+                    <div class="card-body text-center">
+                        <h5>Yellow Rose</h5>
+                        <p>RM 209.00</p>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+</div>
+
+<!-- Footer -->
+<footer class="bottom text-center mt-5 p-3 bg-dark text-white">
+    <p>© 2025 RoseShop. All Rights Reserved.</p>
+    <p><a href="#" class="text-white">Privacy Policy</a> | <a href="#" class="text-white">Terms & Conditions</a></p>
+</footer>
+
+<!-- Bootstrap 5 JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="test.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,104 @@
+/* Navbar Styling */
+.navbar {
+    background-color: white; /* White background */
+    color: black;
+    padding: 10px 20px; /* Reduced padding for better spacing */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 60px; /* Fixed height */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+
+/* Navbar Brand */
+.navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+
+/* Navbar links */
+.navbar-nav {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar Items */
+.navbar-nav .nav-item {
+    margin: 0 15px;
+}
+
+/* Navbar Links */
+.navbar-nav .nav-link {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #575d63; /* Darker shade on hover */
+}
+
+/* Mobile Navbar Toggle */
+.navbar-toggler {
+    display: none;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+/* Mobile Menu */
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        height: auto;
+        padding: 15px;
+    }
+
+    .navbar-toggler {
+        display: block;
+        position: absolute;
+        right: 20px;
+        top: 15px;
+        font-size: 24px;
+        cursor: pointer;
+    }
+
+    .navbar-collapse {
+        display: none;
+        width: 100%;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .navbar-collapse.show {
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        padding: 15px;
+    }
+
+    .navbar-nav {
+        flex-direction: column;
+    }
+
+    .navbar-nav .nav-item {
+        margin: 10px 0;
+    }
+    
+    .card link {
+        text-decoration: none; /* Removes underline */
+        color: inherit; /* Inherits text color from parent */
+    }
+    
+    
+}

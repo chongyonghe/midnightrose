@@ -1,0 +1,138 @@
+/* General Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.bg {
+    background-color: antiquewhite;
+}
+
+/* Header Styling */
+.navbar {
+    padding: 1rem;
+}
+
+.navbar-nav .nav-item .nav-link {
+    font-size: 1.1rem;
+    margin-right: 1rem;
+}
+
+.navbar-nav .nav-link:hover 
+{
+    color: blue !important; /* Elegant light orange hover effect */
+}
+
+.navbar-brand 
+{
+    font-weight: bold;
+    font-family: "Tangerine", serif;
+}
+
+/* Contact Section */
+.contact-section {
+    margin-top: 80px;
+    font-size: 1.1rem;
+}
+
+.contact-section h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+.contact-section h3 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.contact-section p {
+    color: #555;
+    line-height: 1.6;
+}
+
+/* Form Styling */
+.contact-section form {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-section .form-group {
+    margin-bottom: 20px;
+}
+
+.contact-section .form-control {
+    padding: 12px;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.contact-section button[type="submit"] {
+    padding: 12px 30px;
+    font-size: 1.2rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-section button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Images */
+img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* Bottom Section */
+.bottom {
+    background-color: #343a40;
+    color: white;
+    padding: 30px 0;
+}
+
+.bottom a {
+    color: white;
+    text-decoration: none;
+}
+
+.bottom a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 767px) {
+    .contact-section h2 {
+        font-size: 2rem;
+    }
+
+    .contact-section p, .contact-section h3 {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .contact-section h2 {
+        font-size: 1.6rem;
+    }
+
+    .contact-section h3 {
+        font-size: 1.4rem;
+    }
+
+    .contact-section p {
+        font-size: 0.9rem;
+    }
+}
